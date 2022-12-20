@@ -7,7 +7,7 @@ interface SelectPropsType extends InputHTMLAttributes<HTMLInputElement> {
 
 export function Select({ children, ...rest }: SelectPropsType) {
   return (
-    <SelectContainer>
+    <SelectContainer onClick={() => ''}>
       <input type="radio" {...rest} />
 
       <SelectContent>{children}</SelectContent>
