@@ -13,6 +13,7 @@ export const SelectContainer = styled.div`
     cursor: pointer;
     opacity: 1;
     width: 100%;
+    height: 100%;
 
     :hover + div {
       background: ${({ theme }) => theme.color.base.hover};
