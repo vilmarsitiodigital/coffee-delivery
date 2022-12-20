@@ -41,6 +41,12 @@ export const TitleContainer = styled.div`
     font-size: ${({ theme }) => theme.font.size.text.xl};
     color: ${({ theme }) => theme.color.base.subtitle};
   }
+
+  @media (max-width: 570px) {
+    h1 {
+      line-height: 3.5rem;
+    }
+  }
 `
 
 export const DescriptionsContainer = styled.div`
